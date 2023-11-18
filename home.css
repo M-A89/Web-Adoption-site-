@@ -1,0 +1,128 @@
+
+.container {
+    display: grid; /* Use CSS grid to create a two-column layout */
+    grid-template-columns: 200px auto; /* Set the columns: 200px for table of contents, auto for content */
+}
+
+p#date{
+    color:#cbe8f7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+p#title {
+    color:#d4eaf6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    border-radius: 25px;
+    border: 2px solid #d4eaf6;
+    padding: 20px; 
+    width: 200px;
+    height: 50px;  
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+}
+.content{
+    padding-right: 1px;
+    padding-left: 150px;
+    padding-top:1px;
+    background-color:#fce8e8;
+    margin: 50px 150px 50px 70px;
+    border-radius:25px;
+    color: #415d71;
+    overflow : auto;
+}
+div > p {
+    text-align: left;
+    color:#6e6e87;
+    left: 2px;
+    top: 5px;
+}
+
+/* Link for the logo and header */
+a#tlink{
+    text-decoration: none;
+}
+
+body{
+    background-color:#a2b7c3;
+    margin: 0;
+    padding: 0;
+   
+}
+
+p#content{
+    text-align: center;
+    background-color: #fce8e8;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li a.Menu {
+    display: block;
+    background-color:#a2b7c3;
+    font-size: 18px;
+    border-style: solid;
+    font-weight:500;
+    width: 100%;
+    padding: 20px;
+}
+
+a.Menu:link {
+    color: #415d71;
+    background-color: #d4eaf6;
+    text-decoration: none;
+}
+
+.Menu:visited{
+    color: #415d71;
+    background-color: #d4eaf6;
+    text-decoration: none;
+}
+
+.Menu:hover, #currentPage {
+    color:#415d71;
+    background-color:#fce8e8;
+    text-decoration: none;
+}
+
+.Menu:active{
+    color:#415d71;
+    background-color: #a2b7c3;
+    text-decoration: none;
+}
+
+/*for actual footer*/
+footer {
+    text-align: center;
+    background-color: #fce8e8;
+    border-style: solid;
+    border-color: #415d71;
+    color: #a2b7c3;
+    
+    margin-top: 11%;
+    
+}
+/*for div*/
+.footer{
+    height:50px;
+}
+
+#img1{
+    width:200px;
+    height:175px;
+    border:solid #6e6e87 2px;
+    border-radius: 10px;
+}
+#img2{
+    width:225px;
+    height:175px;
+    border:solid #6e6e87 2px;
+    border-radius: 10px;
+}

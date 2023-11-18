@@ -1,0 +1,137 @@
+
+.container {
+    display: grid; /* Use CSS grid to create a two-column layout */
+    grid-template-columns: 200px auto; /* Set the columns: 200px for table of contents, auto for content */
+}
+
+p#date{
+    color:#cbe8f7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+p#title {
+    color:#d4eaf6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    border-radius: 25px;
+    border: 2px solid #d4eaf6;
+    padding: 20px; 
+    width: 200px;
+    height: 50px;  
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+.content{
+    word-wrap: break-word;
+    padding: 1% 4%;
+    background-color:#fce8e8;
+    margin-top: 1%;
+    margin-left: 9%;
+    border-radius:25px;
+    color: #415d71;
+    overflow : auto;
+    height: fit-content;
+    width: 80%;
+}
+
+div > p {
+    text-align: left;
+}
+
+
+/* Link for the logo and header */
+a#tlink{
+    text-decoration: none;
+}
+
+body{
+    background-color:#a2b7c3;
+    margin: 0;
+    padding: 0;
+   
+}
+
+ul#contents {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-list li {
+    margin-bottom: 25px; /* Adjust this value to set the desired spacing */
+}
+
+li a.Menu {
+    display: block;
+    background-color:#a2b7c3;
+    font-size: 18px;
+    border-style: solid;
+    font-weight:500;
+    width: 100%;
+    padding: 20px;
+}
+
+a.Menu:link {
+    color: #415d71;
+    background-color: #d4eaf6;
+    text-decoration: none;
+}
+
+.Menu:visited{
+    color: #415d71;
+    background-color: #d4eaf6;
+    text-decoration: none;
+}
+
+.Menu:hover, #currentPage{
+    color:#415d71;
+    background-color:#fce8e8;
+    text-decoration: none;
+}
+
+.Menu:active{
+    color:#415d71;
+    background-color: #a2b7c3;
+    text-decoration: none;
+}
+
+/* for the caption of the pictures*/
+.caption-cell1 {
+    text-align: center;
+}
+
+/* for the caption of the pictures*/
+.caption-cell2 {
+    text-align: center;
+   padding-left: 20%
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #fce8e8;
+    border-style: solid;
+    border-color: #415d71;
+    color: #a2b7c3;
+    
+    margin-top: 11%;
+    
+}
+.footer{
+    height:50px;
+}
+
+#img1{
+    width:320px;
+    height:185px;
+    
+}
+
+#img2{
+    width:320px;
+    height:185px;
+}

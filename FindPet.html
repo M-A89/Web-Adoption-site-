@@ -1,0 +1,130 @@
+<!--This will be the browse available pets page-->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Search pet</title>
+        <link href="FindPet.css" rel="stylesheet">
+        <script src="Question8.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th><a id="tlink" href="home.html"><p id="title">CUDDLE OVERFLOW</p></a></th>
+                <th><a href="home.html"><img src="../images/cat.png" alt="cat logo" style="width:89px;height:120px;"></a></th>
+                <th><p id="date"></p></th>
+            </tr>
+        </table>
+        <div class="container">
+            <!--The table of contents-->
+            <div class="tableOfcontents">
+                <ul id="contents">
+                    <li><a  class="Menu" href="home.html" >Home page</a></li>
+                    <li><a  class="Menu" href="Pets.html">Browse Available Pets</a></li>
+                    <li><a  id ="currentPage" class="Menu" href="FindPet.html">Find a dog/cat</a></li>
+                    <li><a  class="Menu" href="DogCare.html">Dog Care</a></li>
+                    <li><a  class="Menu" href="CatCare.html">Cat Care</a></li>
+                    <li><a  class="Menu" href="GiveAwayPet.html">Have a pet to give away</a></li>
+                    <li><a  class="Menu" href="ContactUs.html">Contact Us</a></li>
+                    <li><a  class="Menu" href="PrivacyStatement.html">Privacy Statement</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="heading2">Please Fill in the form below so we can assist you in finding your next best friend: </h2>
+               
+                <div class="content">
+                    <form>
+                        <div class="form">
+                            <br><label>Preferred pet:</label>
+                            <input type="radio" id="cat" name="catordog" class="Cat">
+                            <label for="cat">Cat</label>
+                            <input type="radio" id="dog" name="catordog" class="Dog">
+                            <label for="dog">Dog</label>
+                                <!--Drop down list-->
+                                <br><label for="breed">What breed of dog or cat are you looking for? </label>
+                            
+                                <select name="breed" id ="breed">
+                                    <!--Cat catgory-->
+                                    <optgroup label ="Cat">
+                                        <option value ="Himalayan">Himalayan</option>
+                                        <option value ="Persian">Persian</option>
+                                        <option value ="Ragdoll">Ragdoll</option>
+                                        <option value ="Scottish fold">Scottish fold</option>
+                                        <option value ="British shorthair">British shorthair</option>
+                                    </optgroup>
+                                    <!--Dog Catgory-->
+                                    <optgroup label="Dog">
+                                        <option value ="German shepherd">German shepherd</option>
+                                        <option value ="Bulldog">Bulldog</option>
+                                        <option value ="Labrador">Labrador</option>
+                                        <option value ="Husky">Husky</option>
+                                        <option value ="Poodle">Poodle</option>
+                                    </optgroup>
+                                    <!--Does not matter-->
+                                    <optgroup label="">
+                                        <option value ="DoesntMatter">Does not matter</option>
+                                    </optgroup>
+                                </select>   <!--End of drop down list-->
+                                <!--Drop down list-->
+                                <br><label for="age_range">What breed of dog or cat are you looking for? </label>
+                                <select name="age_range" id ="age_range">
+                                    <!--Puppy/kitten catgory-->
+                                    <optgroup label ="Puppy/kitten">
+                                        <option value ="puppy/kitten">1-6 months old</option>
+                                    </optgroup>
+                                    <!--Young Adult-->
+                                    <optgroup label="Young Adult">
+                                        <option value ="YA"> 1-6 years old</option>
+                                    </optgroup>
+                                    <!--Mature Adult-->
+                                    <optgroup label="Mature Adult">
+                                        <option value ="MA">7-10 years old</option>
+                                    </optgroup>
+                                    <!--Senior-->
+                                    <optgroup label="Senior">
+                                        <option value ="Senior">10+ years</option>
+                                    </optgroup>
+                                    <!--Does not matter-->
+                                    <optgroup label="">
+                                        <option value ="DoesntMatter">Does not matter</option>
+                                    </optgroup>
+                                </select>   <!--End of drop down list-->
+                                <br><label>Preferred gender:</label>
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Female</label>
+                                <input type="radio" id="male" name="gender">
+                                <label for="dog">Male</label>
+                                <input type="radio" id="dontmatter" name="gender">
+                                <label for="dontmatter">Does not matter</label>
+                                <!--Information about pet-->
+                                <br><label>Please click which options you prefer your pet to get along with:</label>
+                                <input type="checkbox">
+                                <label>Other dogs</label>
+                                <input type="checkbox">
+                                <label>Other cats</label>
+                                <input type="checkbox">
+                                <label>Small Children</label>
+                                <div class="submit">
+                                    <p>Thank you for taking the time to fill out our survey!</p>
+                                    <input type="button" value="Submit" onclick=checkEmpty1()>
+                                    <input type="reset" value="Reset">
+                                </div>
+                                <br>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <!--Footer of the webiste-->
+        <div class="footer">
+            <footer>
+                <p>Author: Mira Alanzarouti</p>
+                <p><a href="mailto:anzaroutimira@gmail.com">anzarourimira@gmail.com</a></p>
+                <p><a href="PrivacyStatement.html">Privacy Statement</a></p>
+            </footer>
+        </div>
+     </body>   
+    
+</html>

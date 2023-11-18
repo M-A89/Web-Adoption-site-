@@ -1,0 +1,143 @@
+
+.container {
+    display: grid; /* Use CSS grid to create a two-column layout */
+    grid-template-columns: 200px auto; /* Set the columns: 200px for table of contents, auto for content */
+}
+
+p#date{
+    color:#cbe8f7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+p#title {
+    color:#d4eaf6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    border-radius: 25px;
+    border: 2px solid #d4eaf6;
+    padding: 20px; 
+    width: 200px;
+    height: 50px;  
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+.content{
+    padding-left: 200px;
+    padding-top:1px;
+    background-color: #fce8e8;
+    border: 2px solid #d4eaf6;
+    margin: 50px 150px 50px 130px;
+    border-radius:25px;
+    color: #415d71;
+    text-align: center;
+    overflow : auto;
+   
+}
+
+div.form{
+    margin-right: 100px;
+    margin-left: -20%;
+}
+
+form label{
+    color:#415d71;
+    
+}
+
+div > p {
+    text-align: center;
+}
+
+a#tlink{
+    text-decoration: none;
+}
+
+body{
+    background-color:#a2b7c3;
+    margin: 0;
+    padding: 0;
+   
+}
+div.heading2{
+    margin-left:20%;
+    color:#415d71;
+}
+p#content{
+    text-align: center;
+    background-color: #fce8e8;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li a.Menu {
+    display: block;
+    background-color:#a2b7c3;
+    font-size: 18px;
+    border-style: solid;
+    font-weight:500;
+    width: 100%;
+    padding: 20px;
+}
+
+a.Menu:link {
+    color: #415d71;
+    background-color: #d4eaf6;
+    text-decoration: none;
+}
+
+.Menu:visited{
+    color: #415d71;
+    background-color: #d4eaf6;
+    text-decoration: none;
+}
+
+.Menu:hover, #currentPage{
+    color:#415d71;
+    background-color:#fce8e8;
+    text-decoration: none;
+}
+
+.Menu:active{
+    color:#415d71;
+    background-color: #a2b7c3;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #fce8e8;
+    border-style: solid;
+    border-color: #415d71;
+    color: #a2b7c3;
+    
+    margin-top: 11%;
+    
+}
+
+.catordogbreed{
+    margin-right: 50%;
+   
+}
+#breed, #age_range{
+    font-size:15px;
+}
+.submit{
+    margin-left: 35%;
+    margin-bottom: 43%;
+    
+}
+.footer{
+    height:50px;
+}
+h2.form{
+    margin-left:90px;
+}
+
